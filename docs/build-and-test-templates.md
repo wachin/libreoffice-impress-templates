@@ -39,15 +39,28 @@ Eso genera:
 lo5-design-candidates/simple-clear.otp
 ```
 
-## Abrirla en LibreOffice
+## Importarla y probarla en LibreOffice Impress
 
-Desde terminal:
+La forma mas fiable de probar una plantilla `.otp` es importarla dentro del gestor de plantillas de LibreOffice Impress y luego crear una presentacion nueva a partir de ella.
 
-```bash
-libreoffice /home/wachin/Dev2/libreoffice-impress-templates-Dev/libreoffice-impress-templates/lo5-design-candidates/simple-clear.otp
+Pasos:
+
+1. Abre LibreOffice Impress.
+2. Ve a `Archivo > Nuevo > Presentacion`.
+3. En la ventana de seleccion, abre `Gestionar`.
+4. Crea una categoria nueva si hace falta.
+5. Usa `Gestionar > Importar`.
+6. Elige la categoria de destino.
+7. Importa el archivo `.otp`.
+8. Crea una presentacion nueva usando esa plantilla importada.
+
+Ejemplo de archivo:
+
+```text
+/home/wachin/Dev2/libreoffice-impress-templates-Dev/libreoffice-impress-templates/lo5-design-candidates/simple-clear.otp
 ```
 
-O desde el explorador de archivos, con doble clic sobre el `.otp`.
+Tambien puedes abrir el `.otp` directamente para una revision rapida, pero para comprobar bien el comportamiento de la plantilla conviene usar el flujo de importacion.
 
 ## Verificacion rapida del paquete
 
