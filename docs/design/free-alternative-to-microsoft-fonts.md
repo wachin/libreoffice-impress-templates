@@ -119,10 +119,10 @@ The following link is an example of the zip file that contains the fonts in `.tt
 If you want to download all these fonts at once, I have collected them in a Git repository. Simply run the following commands in a terminal:
 
 ```bash
-mkdir ~/.fonts
-cd ~/.fonts
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
 git clone https://github.com/wachin/Alternativa-a-fuentes-de-Windows
-rm -fr ~/.fonts/Alternativa-a-fuentes-de-Windows/.git
+rm -fr ~/.local/share/fonts/Alternativa-a-fuentes-de-Windows/.git
 ```
 
 **Note:** The last command (`rm -fr ...`) removes the `.git` directory, which contains the Git metadata used to manage the repository on GitHub. Since you're only interested in the font files, keeping the Git history serves no purpose and would only take up unnecessary disk space.
