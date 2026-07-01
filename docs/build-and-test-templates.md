@@ -65,6 +65,24 @@ Lo importante es:
 - `mimetype` debe estar `Stored`, no comprimido.
 - Deben existir `content.xml`, `styles.xml`, `meta.xml`, `settings.xml`, `META-INF/manifest.xml`.
 
+## Validacion automatica minima
+
+Hay un script en `tests/validate_template.rb` para comprobar la carpeta fuente y, si ya existe, tambien el `.otp` generado.
+
+Ejemplo:
+
+```bash
+ruby tests/validate_template.rb lo5-design-candidates/simple-clear
+```
+
+Ese script revisa:
+
+- que los XML obligatorios existan;
+- que los XML sean parseables;
+- que `mimetype` tenga el valor correcto;
+- que no haya `*.md` dentro de la carpeta de la plantilla;
+- que el `.otp`, si existe, tenga `mimetype` primero y sin compresion.
+
 ## Revisar si un XML sigue valido
 
 Si editaste a mano un XML y quieres comprobar que no quedó roto:
