@@ -357,6 +357,9 @@ You can also see my tutorial:
 
 # References
 
+**Alternativa a fuentes tipográficas privativas de microsoft**  
+[https://facilitarelsoftwarelibre.blogspot.com/2025/07/alternativa-a-fuentes-tipograficas-privativas-de-microsoft.html](https://facilitarelsoftwarelibre.blogspot.com/2025/07/alternativa-a-fuentes-tipograficas-privativas-de-microsoft.html)
+
 **Linux Font Equivalents to Popular Web Typefaces | Jon Christopher**  
 [https://jonchristopher.us/blog/linux-font-equivalents-to-popular-web-typefaces/](https://jonchristopher.us/blog/linux-font-equivalents-to-popular-web-typefaces/)
 
