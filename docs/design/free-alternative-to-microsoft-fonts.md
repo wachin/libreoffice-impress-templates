@@ -114,6 +114,19 @@ https://fonts.google.com/specimen/EB+Garamond
 The following link is an example of the zip file that contains the fonts in `.ttf` format:  
 [https://github.com/be5invis/Iosevka/releases/download/v32.5.0/PkgTTF-Iosevka-32.5.0.zip](https://github.com/be5invis/Iosevka/releases/download/v32.5.0/PkgTTF-Iosevka-32.5.0.zip)
 
+### Download all these fonts from Google Fonts at once from my repository
+
+If you want to download all these fonts at once, I have collected them in a Git repository. Simply run the following commands in a terminal:
+
+```bash
+mkdir ~/.fonts
+cd ~/.fonts
+git clone https://github.com/wachin/Alternativa-a-fuentes-de-Windows
+rm -fr ~/.fonts/Alternativa-a-fuentes-de-Windows/.git
+```
+
+**Note:** The last command (`rm -fr ...`) removes the `.git` directory, which contains the Git metadata used to manage the repository on GitHub. Since you're only interested in the font files, keeping the Git history serves no purpose and would only take up unnecessary disk space.
+
 # Installing Fonts on Linux
 
 Many older guides recommend copying Windows fonts to the personal `~/.fonts` directory.  
