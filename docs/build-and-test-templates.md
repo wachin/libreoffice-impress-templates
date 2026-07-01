@@ -4,16 +4,16 @@ Este repositorio guarda las plantillas como directorios descomprimidos. Para pro
 
 ## Requisitos
 
-- `ruby`
-- `zip`
-- `unzip`
+- `python3`
 - `libreoffice`
 
 En Debian o Ubuntu:
 
 ```bash
-sudo apt install ruby zip unzip libreoffice
+sudo apt install python3 libreoffice
 ```
+
+Los scripts antiguos en Ruby siguen presentes por compatibilidad, pero el flujo recomendado desde ahora es con Python.
 
 ## Importante
 
@@ -32,7 +32,7 @@ Desde la raiz del repo:
 
 ```bash
 cd /home/wachin/Dev2/libreoffice-impress-templates-Dev/libreoffice-impress-templates/lo5-design-candidates
-ruby ../scripts/repack_otp.rb simple-clear
+python3 ../scripts/repack_otp.py simple-clear
 ```
 
 Eso genera:
@@ -67,12 +67,12 @@ Lo importante es:
 
 ## Validacion automatica minima
 
-Hay un script en `tests/validate_template.rb` para comprobar la carpeta fuente y, si ya existe, tambien el `.otp` generado.
+Hay un script en `tests/validate_template.py` para comprobar la carpeta fuente y, si ya existe, tambien el `.otp` generado.
 
 Ejemplo:
 
 ```bash
-ruby tests/validate_template.rb lo5-design-candidates/simple-clear
+python3 tests/validate_template.py lo5-design-candidates/simple-clear
 ```
 
 Ese script revisa:
@@ -104,10 +104,19 @@ PY
 
 1. Editar `styles.xml`, `content.xml`, `meta.xml` o `Settings/ColorTable.xml`.
 2. Verificar XML.
-3. Reempaquetar con `scripts/repack_otp.rb`.
+3. Reempaquetar con `scripts/repack_otp.py`.
 4. Abrir el `.otp` en LibreOffice.
 5. Revisar visualmente la portada, contenido, pies y placeholders.
 6. Si queda bien, regenerar luego `Thumbnails/thumbnail.png`.
+
+## Desempaquetar una plantilla
+
+Si quieres partir de un `.otp` ya generado:
+
+```bash
+cd /home/wachin/Dev2/libreoffice-impress-templates-Dev/libreoffice-impress-templates/lo5-design-candidates
+python3 ../scripts/unpack_otp.py simple-clear.otp
+```
 
 ## Problemas comunes
 
