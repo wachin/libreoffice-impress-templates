@@ -1,0 +1,8 @@
+*.otp
+
+__pycache__/
+*.pyc
+
+.DS_Store
+
+.~lock.*#
