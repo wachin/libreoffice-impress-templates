@@ -57,10 +57,10 @@
   <office:body>
     <office:presentation>
       <draw:page draw:name="page1" draw:style-name="dp1" draw:master-page-name="SimpleClear" presentation:presentation-page-layout-name="AL1T0">
-        <draw:frame presentation:style-name="pr1" draw:layer="layout" svg:width="21.6cm" svg:height="5.6cm" svg:x="2.35cm" svg:y="2.4cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
+        <draw:frame presentation:style-name="pr1" draw:layer="layout" svg:width="25.5cm" svg:height="4.8cm" svg:x="2.55cm" svg:y="2.05cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
           <draw:text-box/>
         </draw:frame>
-        <draw:frame presentation:style-name="pr2" draw:layer="layout" svg:width="15.6cm" svg:height="2.2cm" svg:x="2.35cm" svg:y="9.2cm" presentation:class="subtitle" presentation:placeholder="true" presentation:user-transformed="true">
+        <draw:frame presentation:style-name="pr2" draw:layer="layout" svg:width="18.6cm" svg:height="2.1cm" svg:x="2.55cm" svg:y="7.85cm" presentation:class="subtitle" presentation:placeholder="true" presentation:user-transformed="true">
           <draw:text-box/>
         </draw:frame>
         <presentation:notes draw:style-name="dp2">
@@ -71,10 +71,10 @@
         </presentation:notes>
       </draw:page>
       <draw:page draw:name="page2" draw:style-name="dp1" draw:master-page-name="SimpleClear1" presentation:presentation-page-layout-name="AL2T1">
-        <draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="22.8cm" svg:height="2.6cm" svg:x="1.95cm" svg:y="1.25cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
+        <draw:frame presentation:style-name="pr4" draw:layer="layout" svg:width="25.2cm" svg:height="2.3cm" svg:x="2.15cm" svg:y="1.05cm" presentation:class="title" presentation:placeholder="true" presentation:user-transformed="true">
           <draw:text-box/>
         </draw:frame>
-        <draw:frame presentation:style-name="pr5" draw:layer="layout" svg:width="16.8cm" svg:height="12cm" svg:x="1.95cm" svg:y="5.05cm" presentation:class="outline" presentation:placeholder="true">
+        <draw:frame presentation:style-name="pr5" draw:layer="layout" svg:width="20.6cm" svg:height="10.6cm" svg:x="2.15cm" svg:y="4.6cm" presentation:class="outline" presentation:placeholder="true">
           <draw:text-box/>
         </draw:frame>
         <presentation:notes draw:style-name="dp2">
@@ -85,7 +85,7 @@
         </presentation:notes>
       </draw:page>
       <draw:page draw:name="page3" draw:style-name="dp1" draw:master-page-name="SimpleClear2" presentation:presentation-page-layout-name="AL3T32">
-        <draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="20.4cm" svg:height="5.3cm" svg:x="4cm" svg:y="5.7cm" presentation:class="subtitle" presentation:placeholder="true" presentation:user-transformed="true">
+        <draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="23cm" svg:height="4.8cm" svg:x="5cm" svg:y="5.1cm" presentation:class="subtitle" presentation:placeholder="true" presentation:user-transformed="true">
           <draw:text-box/>
         </draw:frame>
         <presentation:notes draw:style-name="dp2">
