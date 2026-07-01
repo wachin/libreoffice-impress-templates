@@ -13,8 +13,6 @@ En Debian o Ubuntu:
 sudo apt install python3 libreoffice
 ```
 
-Los scripts antiguos en Ruby siguen presentes por compatibilidad, pero el flujo recomendado desde ahora es con Python.
-
 ## Importante
 
 No metas archivos de documentacion como `*.md` dentro de la carpeta de una plantilla si luego vas a empaquetarla.

@@ -421,27 +421,27 @@ Details on the currently available templates in this collection can be found [he
 
 ## Scripts
 
-The `scripts` folder contains the scripts used to build and unpack the .otp files. Binaries are purposely not stored in the repository in an effort to avoid using git for things it was not meant to do. Instead, they are made available for download in the [releases section](https://github.com/dohliam/libreoffice-impress-templates/releases), while the repository itself contains the unpacked files inside each .otp template. The scripts allow these unpacked files to be compiled into collections of usable template binaries for download.
+The `scripts` folder contains the Python scripts used to build and unpack the `.otp` files. Binaries are purposely not stored in the repository in an effort to avoid using git for things it was not meant to do. Instead, they are made available for download in the [releases section](https://github.com/dohliam/libreoffice-impress-templates/releases), while the repository itself contains the unpacked files inside each `.otp` template. The scripts allow these unpacked files to be compiled into collections of usable template binaries for download.
 
-If you have ruby installed you can also use these to build the templates yourself from source. Just enter a directory containing template source files and execute the `repack_otp.rb` script.
+To build templates from source, enter a directory containing template source folders and execute `repack_otp.py`.
 
 For example, if you have cloned the repository and want to build the Modern Impress Templates collection, you can use the following commands from within the main repository directory:
 
     cd modern-impress-templates
-    ../scripts/repack_otp.rb
+    python3 ../scripts/repack_otp.py
 
 You MUST change directory into a collection directory for the script to work.
 
-This will create an .otp template file for each source folder in the directory.
+This will create an `.otp` template file for each source folder in the directory.
 
 You can also use the scripts to pack and unpack individual templates. Just add one or more template file or folder names after the main command, e.g.:
 
     cd kde-files-org
-    ../scripts/repack_otp.rb letterpress squares chalkboard
+    python3 ../scripts/repack_otp.py letterpress squares chalkboard
 
 or
 
-    ../scripts/unpack_otp.rb letterpress.otp squares.otp chalkboard.otp
+    python3 ../scripts/unpack_otp.py letterpress.otp squares.otp chalkboard.otp
 
 ## Download
 
@@ -457,7 +457,7 @@ Most of the individual templates can be used directly without installation by cl
 
 To get the .otp file for a particular template, just download the corresponding template collection from the [release section](https://github.com/dohliam/libreoffice-impress-templates/releases), unzip it and look in the `otp` folder for the file you want.
 
-It is also possible to compile one or all of the templates manually from source, using the [template packing script](#scripts) in the scripts folder.
+It is also possible to compile one or all of the templates manually from source, using the Python [template packing script](#scripts) in the `scripts` folder.
 
 Installation packages for specific operating systems are also available (see below for further details).
 
