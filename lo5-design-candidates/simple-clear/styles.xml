@@ -653,7 +653,7 @@
         </text:list-style>
       </style:graphic-properties>
       <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-      <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#1d4ed8" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Source Sans Pro Black" fo:font-family="'Source Sans Pro Black'" style:font-style-name="Negra" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="42pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="900" style:letter-kerning="true" style:font-name-asian="Tahoma" style:font-family-asian="Tahoma" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="30pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="30pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Source Sans Pro Black" fo:font-family="'Source Sans Pro Black'" style:font-style-name="Negra" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="42pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="900" style:letter-kerning="true" style:font-name-asian="Tahoma" style:font-family-asian="Tahoma" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="30pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="30pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
     </style:style>
     <style:style style:name="SimpleClear2-title" style:family="presentation">
       <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:fill-image-width="0cm" draw:fill-image-height="0cm" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" fo:wrap-option="wrap">
@@ -768,6 +768,15 @@
     </style:style>
     <style:style style:name="Mpr9" style:family="presentation" style:parent-style-name="SimpleClear2-backgroundobjects">
       <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.397cm"/>
+    </style:style>
+    <style:style style:name="GrAccentPrimary" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#1d4ed8" draw:shadow="hidden"/>
+    </style:style>
+    <style:style style:name="GrAccentSoft" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#dbeafe" draw:shadow="hidden"/>
+    </style:style>
+    <style:style style:name="GrAccentCyan" style:family="graphic" style:parent-style-name="standard">
+      <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#06b6d4" draw:shadow="hidden"/>
     </style:style>
     <style:style style:name="MP1" style:family="paragraph">
       <style:text-properties fo:color="#64748b" fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
@@ -921,6 +930,9 @@
       </draw:frame>
     </style:handout-master>
     <style:master-page style:name="SimpleClear" style:page-layout-name="PM1" draw:style-name="Mdp1">
+      <draw:rect draw:style-name="GrAccentPrimary" draw:layer="backgroundobjects" svg:width="0.55cm" svg:height="8.9cm" svg:x="1.25cm" svg:y="1.7cm"/>
+      <draw:rect draw:style-name="GrAccentSoft" draw:layer="backgroundobjects" svg:width="6.8cm" svg:height="1.4cm" svg:x="20cm" svg:y="2cm"/>
+      <draw:rect draw:style-name="GrAccentCyan" draw:layer="backgroundobjects" svg:width="2.2cm" svg:height="0.22cm" svg:x="2.25cm" svg:y="11.55cm"/>
       <draw:frame presentation:style-name="SimpleClear-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="9.461cm" svg:x="1.4cm" svg:y="1.908cm" presentation:class="title" presentation:placeholder="true">
         <draw:text-box/>
       </draw:frame>
@@ -998,6 +1010,9 @@
       </presentation:notes>
     </style:master-page>
     <style:master-page style:name="SimpleClear1" style:page-layout-name="PM1" draw:style-name="Mdp1">
+      <draw:rect draw:style-name="GrAccentPrimary" draw:layer="backgroundobjects" svg:width="25cm" svg:height="0.32cm" svg:x="1.5cm" svg:y="4.15cm"/>
+      <draw:rect draw:style-name="GrAccentSoft" draw:layer="backgroundobjects" svg:width="7.4cm" svg:height="12.4cm" svg:x="19.2cm" svg:y="4.55cm"/>
+      <draw:rect draw:style-name="GrAccentCyan" draw:layer="backgroundobjects" svg:width="0.22cm" svg:height="2.4cm" svg:x="1.5cm" svg:y="1.25cm"/>
       <draw:frame presentation:style-name="SimpleClear1-title" draw:layer="backgroundobjects" svg:width="46.628cm" svg:height="4.341cm" svg:x="1.4cm" svg:y="1.364cm" presentation:class="title" presentation:placeholder="true">
         <draw:text-box/>
       </draw:frame>
@@ -1075,6 +1090,8 @@
       </presentation:notes>
     </style:master-page>
     <style:master-page style:name="SimpleClear2" style:page-layout-name="PM1" draw:style-name="Mdp1">
+      <draw:rect draw:style-name="GrAccentPrimary" draw:layer="backgroundobjects" svg:width="22.8cm" svg:height="7.1cm" svg:x="2.6cm" svg:y="4.9cm"/>
+      <draw:rect draw:style-name="GrAccentCyan" draw:layer="backgroundobjects" svg:width="3.2cm" svg:height="0.22cm" svg:x="12.4cm" svg:y="12.45cm"/>
       <draw:frame presentation:style-name="SimpleClear2-title" draw:layer="backgroundobjects" svg:width="25.098cm" svg:height="4.341cm" svg:x="1.4cm" svg:y="1.364cm" presentation:class="title" presentation:placeholder="true">
         <draw:text-box/>
       </draw:frame>
