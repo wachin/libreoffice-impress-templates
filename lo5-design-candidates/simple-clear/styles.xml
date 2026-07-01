@@ -608,7 +608,7 @@
       <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
     </style:style>
     <style:style style:name="SimpleClear2-subtitle" style:family="presentation">
-      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-image-width="0cm" draw:fill-image-height="0cm" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" fo:wrap-option="wrap">
+      <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-image-width="0cm" draw:fill-image-height="0cm" draw:textarea-horizontal-align="center" draw:textarea-vertical-align="middle" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" fo:wrap-option="wrap">
         <text:list-style style:name="SimpleClear2-subtitle">
           <text:list-level-style-bullet text:level="1" text:bullet-char="●">
             <style:list-level-properties text:min-label-width="0.6cm"/>
@@ -653,7 +653,7 @@
         </text:list-style>
       </style:graphic-properties>
       <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-      <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Source Sans Pro Black" fo:font-family="'Source Sans Pro Black'" style:font-style-name="Negra" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="42pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="900" style:letter-kerning="true" style:font-name-asian="Tahoma" style:font-family-asian="Tahoma" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="30pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="30pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+      <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ffffff" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Source Sans Pro Black" fo:font-family="'Source Sans Pro Black'" style:font-style-name="Negra" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="34pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="900" style:letter-kerning="true" style:font-name-asian="Tahoma" style:font-family-asian="Tahoma" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="26pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="FreeSans" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="26pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
     </style:style>
     <style:style style:name="SimpleClear2-title" style:family="presentation">
       <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:fill-image-width="0cm" draw:fill-image-height="0cm" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" fo:wrap-option="wrap">
@@ -1092,10 +1092,7 @@
     <style:master-page style:name="SimpleClear2" style:page-layout-name="PM1" draw:style-name="Mdp1">
       <draw:rect draw:style-name="GrAccentPrimary" draw:layer="backgroundobjects" svg:width="26.8cm" svg:height="6.4cm" svg:x="3.6cm" svg:y="4.3cm"/>
       <draw:rect draw:style-name="GrAccentCyan" draw:layer="backgroundobjects" svg:width="3.6cm" svg:height="0.18cm" svg:x="15.1cm" svg:y="11.25cm"/>
-      <draw:frame presentation:style-name="SimpleClear2-title" draw:layer="backgroundobjects" svg:width="25cm" svg:height="2.3cm" svg:x="4.4cm" svg:y="5.2cm" presentation:class="title" presentation:placeholder="true">
-        <draw:text-box/>
-      </draw:frame>
-      <draw:frame presentation:style-name="SimpleClear2-outline1" draw:layer="backgroundobjects" svg:width="23cm" svg:height="4.8cm" svg:x="5cm" svg:y="5.1cm" presentation:class="outline" presentation:placeholder="true">
+      <draw:frame presentation:style-name="SimpleClear2-subtitle" draw:layer="backgroundobjects" svg:width="23.4cm" svg:height="3.8cm" svg:x="5.3cm" svg:y="5.55cm" presentation:class="subtitle" presentation:placeholder="true">
         <draw:text-box/>
       </draw:frame>
       <draw:frame presentation:style-name="Mpr7" draw:text-style-name="MP1" draw:layer="backgroundobjects" svg:width="6.4cm" svg:height="0.75cm" svg:x="2cm" svg:y="17.9cm" presentation:class="date-time">
